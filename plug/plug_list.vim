@@ -6,9 +6,6 @@ call plug#begin('~/.config/nvim/plugged')
 " 彩虹括号
 Plug 'luochen1990/rainbow'
 
-" 状态栏插件
-Plug 'jiangmiao/auto-pairs'
-
 " 底部状态栏
 Plug 'vim-airline/vim-airline'
 
@@ -25,9 +22,15 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 " 开始界面
 Plug 'mhinz/vim-startify'
 
-Plug 'hardcoreplayers/vim-buffet'
+" buffer状态栏的图标显示
 Plug 'ryanoasis/vim-devicons'
+
+" buffer 状态栏显示
+Plug 'hardcoreplayers/vim-buffet'
+
+" nvim 启动界面
 "Plug 'hardcoreplayers/dashboard-nvim'
-"Plug 'liuchengxu/vim-which-key'
+
+Plug 'liuchengxu/vim-which-key'
 
 call plug#end()

@@ -8,6 +8,8 @@ set softtabstop=4
 " 不要用空格代替制表符
 set noexpandtab
 
+set timeoutlen=500
+
 " Vim Directories {{{
 " ---------------
 set nobackup
