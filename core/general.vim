@@ -1,14 +1,25 @@
- " 设置行号
- set number
- set relativenumber      " Show relative number
- " 设置tab键和自动缩进
+"设置行号
+set number
+"反向行号
+set relativenumber      
+"设置tab键和自动缩进
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-" 不要用空格代替制表符
+"自动缩进
+set autoindent
+"不要用空格代替制表符
 set noexpandtab
-
+"延时
 set timeoutlen=500
+"语法高亮
+syntax on
+"开启光标高亮
+set cursorline
+"输入搜索内容时显示搜索结果
+set incsearch
+"主题设置
+colorscheme onedark
 
 " Vim Directories {{{
 " ---------------

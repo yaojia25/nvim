@@ -15,8 +15,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 " 模块化配置
-source ~/.config/nvim/core/gconfig.vim
-source ~/.config/nvim/core/keybindings.vim
-source ~/.config/nvim/core/sconfig.vim
-source ~/.config/nvim/plug/plug_list.vim
-source ~/.config/nvim/plug/plug_settings.vim
+source ~/.config/nvim/plugin/plugins.vim
+source ~/.config/nvim/plugin/pluginset.vim
+source ~/.config/nvim/core/general.vim
+source ~/.config/nvim/core/keymap.vim

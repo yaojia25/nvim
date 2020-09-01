@@ -1,4 +1,5 @@
-" 底部状态栏 vim-airline'
+"底部状态栏 vim-airline'
+let g:airline_theme='onedark'
 set laststatus=2                             "永远显示状态栏
 let g:airline_powerline_fonts = 1            " 支持 powerline 字体
 let g:airline#extensions#tabline#enabled = 0 " 关闭顶部buffer栏，使用vim-buffet代替
@@ -38,8 +39,4 @@ let g:buffet_right_trunc_icon = "\uf0a9"
 
 " Ranger 设置
 let g:ranger_map_keys = 0
-map <leader>f :Ranger<CR>  " 启动 Ranger 
 
-" vim-witch-key
-nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
-nnoremap <silent> <localleader> :<c-u>WhichKey  ','<CR>

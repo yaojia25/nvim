@@ -3,6 +3,8 @@
 "================================= 
 call plug#begin('~/.config/nvim/plugged')
 
+Plug 'joshdick/onedark.vim'
+
 " 彩虹括号
 Plug 'luochen1990/rainbow'
 
