@@ -3,6 +3,7 @@
 "================================= 
 call plug#begin('~/.config/nvim/plugged')
 
+" 主题
 Plug 'joshdick/onedark.vim'
 
 " 彩虹括号

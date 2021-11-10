@@ -1,6 +1,6 @@
 "底部状态栏 vim-airline'
 let g:airline_theme='onedark'
-set laststatus=2                             "永远显示状态栏
+set laststatus=2                             " 永远显示状态栏
 let g:airline_powerline_fonts = 1            " 支持 powerline 字体
 let g:airline#extensions#tabline#enabled = 0 " 关闭顶部buffer栏，使用vim-buffet代替
 if !exists('g:airline_symbols')

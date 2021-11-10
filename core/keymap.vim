@@ -18,10 +18,11 @@ map <F3> :PlugInstall<CR>
 map <F4> :PlugUpdate<CR>
 
 " 保存退出相关
-nmap <C-s> :w<CR>   
+imap <C-s> <Esc>:w!<CR>i " 插入模式下
+nmap <C-s> :w<CR>        " 普通模式下
 nmap <C-q> :q<CR>   
 nnoremap Q :wq<CR> 
-vnoremap <C-c> "+y
+vnoremap <C-c> "+y       " 复制到系统粘贴板
 
 " 分屏相关
 map <LOCALLEADER>/ :vsplit<CR> "向右分屏
