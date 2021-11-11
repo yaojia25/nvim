@@ -36,4 +36,7 @@ Plug 'hardcoreplayers/vim-buffet'
 
 Plug 'liuchengxu/vim-which-key'
 
+" 文件树
+Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
+
 call plug#end()
